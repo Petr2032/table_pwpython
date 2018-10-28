@@ -1,0 +1,9 @@
+{
+    "editor.tabSize": 4,
+    "editor.renderWhitespace": "all",
+    "editor.insertSpaces": true,
+    "editor.formatOnPaste": true,
+    "editor.detectIndentation": false,
+    "editor.mouseWheelZoom": true,
+    "files.encoding": "utf8"
+}
