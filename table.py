@@ -84,8 +84,8 @@ class Table(wx.grid.Grid):
         self.AppendRows(row)
         self.AppendCols(col)
 
-    #Записать список в ячейки с указанного начального номера ячейки
-    # Ячейки предворительно очистить и удалится строки
+    #Загрузка в таблицу массив (размер массива подгоняется под размер массива)
+    # Ячейки предворительно очистить и удалить ненужные строки
     def setValues(self, values):
         self.values = values
         self.row = 0
@@ -103,7 +103,7 @@ class Table(wx.grid.Grid):
         for self.r in range(self.row):
             for self.c in range(len(self.values[self.r])):
                     self.SetCellValue(self.r, self.c, self.values[self.r][self.c])
-
+    #Методы получения, выбранных ячеек
 
 
 class Frame(wx.Frame):
